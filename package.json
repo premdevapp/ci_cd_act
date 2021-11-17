@@ -2,16 +2,17 @@
   "name": "ci_cd_pipe",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app.js",
+    "start": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
   }
 }

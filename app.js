@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 const port = 5000;
 app.get('/name', (req, res) => {
-  res.send('Premnath');
+  res.json({name: 'Premnath'});
 });
 
 app.listen(port, () => {
